@@ -1,3 +1,23 @@
+/* Receiver code
+ * Install the NRF24 library to your IDE
+ * Upload this code to the Arduino UNO, NANO, Pro mini (5V,16MHz)
+ * Connect a NRF24 module to it:
+ 
+    NRF Module --> Arduino UNO,NANO
+    
+    GND    ->   GND
+    Vcc    ->   3.3V
+    CE     ->   D9
+    CSN    ->   D10
+    CLK    ->   D13
+    MOSI   ->   D11
+    MISO   ->   D12
+
+  
+*/
+
+
+
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
